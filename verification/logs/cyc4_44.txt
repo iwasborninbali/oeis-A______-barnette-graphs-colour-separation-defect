@@ -1,0 +1,9 @@
+graph 1: n=44, cyclic 3-edge cuts 0 - CYCLICALLY 4-EDGE-CONNECTED
+graph 2: n=44, cyclic 3-edge cuts 1
+graph 3: n=44, cyclic 3-edge cuts 1
+graph 4: n=44, cyclic 3-edge cuts 1
+graph 5: n=44, cyclic 3-edge cuts 1
+graph 6: n=44, cyclic 3-edge cuts 1
+graph 7: n=44, cyclic 3-edge cuts 1
+graph 8: n=44, cyclic 3-edge cuts 1
+total cyclically 4-edge-connected: 1 of 8

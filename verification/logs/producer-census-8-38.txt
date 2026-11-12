@@ -1,0 +1,16 @@
+n=8 SUMMARY graphs=1 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=1 def1=0 def2=0 def3plus=0 maxdef=0 g6=1 g6def0=1 g6def1plus=0 minh=6 minprof=4^6 
+n=10 SUMMARY graphs=0 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=0 def1=0 def2=0 def3plus=0 maxdef=0 g6=0 g6def0=0 g6def1plus=0 minh=-1 minprof=
+n=12 SUMMARY graphs=1 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=1 def1=0 def2=0 def3plus=0 maxdef=0 g6=1 g6def0=1 g6def1plus=0 minh=8 minprof=4^6 6^2 
+n=14 SUMMARY graphs=1 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=1 def1=0 def2=0 def3plus=0 maxdef=0 g6=1 g6def0=1 g6def1plus=0 minh=12 minprof=4^6 6^3 
+n=16 SUMMARY graphs=2 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=2 def1=0 def2=0 def3plus=0 maxdef=0 g6=1 g6def0=1 g6def1plus=0 minh=10 minprof=4^8 8^2 
+n=18 SUMMARY graphs=2 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=2 def1=0 def2=0 def3plus=0 maxdef=0 g6=1 g6def0=1 g6def1plus=0 minh=16 minprof=4^7 6^3 8^1 
+n=20 SUMMARY graphs=8 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=8 def1=0 def2=0 def3plus=0 maxdef=0 g6=3 g6def0=3 g6def1plus=0 minh=12 minprof=4^10 10^2 
+n=22 SUMMARY graphs=8 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=8 def1=0 def2=0 def3plus=0 maxdef=0 g6=1 g6def0=1 g6def1plus=0 minh=20 minprof=4^9 6^2 8^1 10^1 
+n=24 SUMMARY graphs=32 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=32 def1=0 def2=0 def3plus=0 maxdef=0 g6=3 g6def0=3 g6def1plus=0 minh=14 minprof=4^12 12^2 
+n=26 SUMMARY graphs=57 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=57 def1=0 def2=0 def3plus=0 maxdef=0 g6=3 g6def0=3 g6def1plus=0 minh=24 minprof=4^11 6^2 10^1 12^1 
+n=28 SUMMARY graphs=185 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=185 def1=0 def2=0 def3plus=0 maxdef=0 g6=3 g6def0=3 g6def1plus=0 minh=16 minprof=4^14 14^2 
+n=30 SUMMARY graphs=466 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=466 def1=0 def2=0 def3plus=0 maxdef=0 g6=2 g6def0=2 g6def1plus=0 minh=28 minprof=4^13 6^2 12^1 14^1 
+n=32 SUMMARY graphs=1543 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=1543 def1=0 def2=0 def3plus=0 maxdef=0 g6=8 g6def0=8 g6def1plus=0 minh=18 minprof=4^16 16^2 
+n=34 SUMMARY graphs=4583 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=4583 def1=0 def2=0 def3plus=0 maxdef=0 g6=3 g6def0=3 g6def1plus=0 minh=32 minprof=4^15 6^2 14^1 16^1 
+n=36 SUMMARY graphs=15374 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=15374 def1=0 def2=0 def3plus=0 maxdef=0 g6=7 g6def0=7 g6def1plus=0 minh=20 minprof=4^18 18^2 
+n=38 SUMMARY graphs=50116 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=50116 def1=0 def2=0 def3plus=0 maxdef=0 g6=7 g6def0=7 g6def1plus=0 minh=36 minprof=4^17 6^2 16^1 18^1 

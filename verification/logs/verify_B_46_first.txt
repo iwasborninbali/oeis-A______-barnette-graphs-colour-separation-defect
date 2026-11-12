@@ -1,0 +1,1 @@
+graph 1: n=46, faces 25 ((4, 12), (6, 7), (8, 6)), cycles 480, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 8

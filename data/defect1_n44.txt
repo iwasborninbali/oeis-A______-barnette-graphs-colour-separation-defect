@@ -1,0 +1,8 @@
+44 bcd,aef,agh,ahi,bjk,bkl,clm,cnd,doj,eip,eqf,frg,grs,htu,iup,jov,kvw,lwm,mxy,nyz,n{o,p|q,q|r,s|},s~t,t€,u€},vxw,x{,y‚,zƒ„,z„{,}…~,~…†,†‡,ˆ€,‰‚,‚Šƒ,ƒŠ‹,„‹‰,…ˆŒ,†Œ‡,‡Œˆ,‰‹Š
+44 bcd,aef,agh,aij,bkl,blm,cno,cop,dpq,drs,etu,evf,fwx,gxy,gzh,h{i,i{|,j|},jw~,k€,k€,l‚,mƒs,m„n,n„…,o…†,p†q,q‡r,r‡„,sƒ,t~ˆ,tˆu,u‰v,v‰Š,wŠ~,x}y,y‹z,z‹{,|‹},Œ€,Œ‚,‚Œƒ,…‡†,ˆŠ‰
+44 bcd,aef,agh,aij,bkl,blm,cmn,cop,dqr,dsk,ejt,euf,fvg,gvw,hxy,hyz,iz{,i{|,j}t,ks~,l~,mn,n€,o‚ƒ,o„p,p„q,q…r,r‚,s€,t†u,u†v,w†},w}|,x|‡,x‡ˆ,y‰z,{‰Š,~€,‚‹ƒ,ƒ‹Œ,„Œ…,…Œ‹,‡Šˆ,ˆŠ‰
+44 bcd,aef,agh,aij,bkl,blm,cmn,cop,dqr,dsk,ejt,euf,fvg,gvw,hxy,hyz,i{|,i|},j~t,ks,l€,m€n,n‚,oƒ„,o…p,p…†,q†‡,qˆr,rƒ‚,s‚,t‰u,u‰v,w‰~,w~},x}Š,xŠ‹,yŒz,zŒ{,{Œ‹,|‹Š,€,ƒˆ„,„ˆ‡,…‡†
+44 bcd,aef,agh,ahi,bjk,blm,cno,cpd,dqj,eir,est,fuv,fvw,gwx,gxy,hyz,izr,jq{,k{|,k}~,l€,l€m,mn,n|o,o‚p,p‚q,rƒs,sƒx,t„…,t…†,u†‡,u‡v,wˆ„,yƒz,{‚|,}‰,}Š~,~Š,‹€,‹‰,„ˆŒ,…Œ†,‡Œˆ,‰‹Š
+44 bcd,aef,agh,aij,bkl,bmn,cop,cqr,drs,dsk,ejt,etu,fvw,fxy,gyz,gz{,hv|,h}i,i}j,k~l,l~,mq€,m‚,n‚ƒ,nƒo,o„p,p…€,q†,r†s,t‡u,u‡|,v{ˆ,wˆ‰,w‰x,xŠy,zŠ‹,{‹ˆ,|‡},~†,€…,Œ‚,ƒŒ„,„Œ…,‰‹Š
+44 bcd,aef,agh,aij,bkl,bmn,cop,cqr,dst,dtk,eju,euv,fwx,fyz,gz{,g{|,hwv,h}~,i~,ij,k€l,l€q,mq,m‚ƒ,nƒ„,n„o,o…p,p†,r€‡,r‡s,s‡t,u}v,w|ˆ,xˆ‰,x‰y,yŠz,{Š‹,|‹ˆ,}~,†‚,‚Œƒ,„Œ…,…Œ†,‰‹Š
+44 bcd,aef,agh,ahi,bjk,bkl,clm,cmd,dnj,eio,epf,fpg,gqh,irs,jtu,kvl,mvw,nxy,nz{,o|},o~,pq,q~,r~€,r‚,s‚ƒ,sƒ|,t{„,t„…,uxw,uwv,x…†,y†‡,y‡z,zˆ{,|‰},}Š€,€Š,‹‚,ƒ‹‰,„ˆŒ,…Œ†,‡Œˆ,‰‹Š

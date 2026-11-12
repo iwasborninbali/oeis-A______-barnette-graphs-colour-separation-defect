@@ -1,0 +1,8 @@
+graph 1: n=44, faces 24 ((4, 10), (6, 10), (8, 4)), cycles 392, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 8
+graph 2: n=44, faces 24 ((4, 11), (6, 9), (8, 3), (10, 1)), cycles 344, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10
+graph 3: n=44, faces 24 ((4, 12), (6, 7), (8, 4), (10, 1)), cycles 344, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10
+graph 4: n=44, faces 24 ((4, 12), (6, 8), (8, 2), (10, 2)), cycles 344, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10
+graph 5: n=44, faces 24 ((4, 12), (6, 8), (8, 2), (10, 2)), cycles 324, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10
+graph 6: n=44, faces 24 ((4, 11), (6, 9), (8, 3), (10, 1)), cycles 384, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10
+graph 7: n=44, faces 24 ((4, 11), (6, 8), (8, 5)), cycles 384, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 8
+graph 8: n=44, faces 24 ((4, 11), (6, 9), (8, 3), (10, 1)), cycles 344, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10

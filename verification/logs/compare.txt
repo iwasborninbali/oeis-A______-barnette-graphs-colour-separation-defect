@@ -1,0 +1,1 @@
+Direct and fast cycle counts agree on all 8 graphs: 392 344 344 344 324 384 384 344

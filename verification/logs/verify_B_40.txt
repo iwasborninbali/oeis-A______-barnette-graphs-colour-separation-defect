@@ -1,0 +1,2 @@
+graph 1: n=40, faces 22 ((4, 10), (6, 9), (8, 2), (10, 1)), cycles 260, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 10
+graph 2: n=40, faces 22 ((4, 9), (6, 10), (8, 3)), cycles 280, proper colouring True; separating cycles by colour pair: NONE; defect 1, forced edges 0, max face 8

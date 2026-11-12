@@ -1,0 +1,8 @@
+data/defect1_n44.txt graph=1 n=44 faces=24 cycles=392 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=2 n=44 faces=24 cycles=344 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=3 n=44 faces=24 cycles=344 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=4 n=44 faces=24 cycles=344 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=5 n=44 faces=24 cycles=324 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=6 n=44 faces=24 cycles=384 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=7 n=44 faces=24 cycles=384 proper=True separating=0 defect=1 forced=0
+data/defect1_n44.txt graph=8 n=44 faces=24 cycles=344 proper=True separating=0 defect=1 forced=0

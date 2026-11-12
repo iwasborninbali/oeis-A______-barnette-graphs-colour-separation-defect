@@ -1,0 +1,1 @@
+n=40 SUMMARY graphs=171168 failA_pairs=0 failA_graphs=0 forced_graphs=0 forced_edges=0 def0=171166 def1=2 def2=0 def3plus=0 maxdef=1 g6=7 g6def0=7 g6def1plus=0 minh=22 minprof=4^20 20^2 
