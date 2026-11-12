@@ -1,7 +1,11 @@
 # OEIS candidate (no A-number yet): Barnette graphs with positive face-colour-separation defect
 
 <!-- oeis-status:begin -->
-**OEIS status: not submitted.** (replaced by the registry tool)
+**OEIS status: not submitted; no A-number yet** (lab registry, 13 Nov 2026).
+
+- A______, Barnette graphs with positive colour-separation defect: **candidate** (2026-11-13: repository built (core c4)). Certificate: partial.
+
+Rules and the full registry: [athanor-oeis](https://github.com/iwasborninbali/athanor-oeis/blob/main/REGISTRY.md).
 <!-- oeis-status:end -->
 
 ## Definition
