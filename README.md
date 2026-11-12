@@ -3,7 +3,7 @@
 <!-- oeis-status:begin -->
 **OEIS status: not submitted; no A-number yet** (lab registry, 13 Nov 2026).
 
-- A______, Barnette graphs with positive colour-separation defect: **candidate** (2026-11-13: repository built (core c4)). Certificate: partial.
+- A______, Barnette graphs with positive colour-separation defect: **not-for-oeis** (2026-11-13: decided: not for the OEIS (see prior_art field for the reason)). Certificate: partial.
 
 Rules and the full registry: [athanor-oeis](https://github.com/iwasborninbali/athanor-oeis/blob/main/REGISTRY.md).
 <!-- oeis-status:end -->
