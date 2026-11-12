@@ -1,0 +1,21 @@
+# Guide's independent recount, 13 Nov 2026, Apple Silicon Mac; plantri 5.5 (sha256 911cdf5b...7ded) built with cc -O3; bsep.c built with cc -O2
+# for f in 6 8 9 ... 25: ./plantri -dbc3 $f | ./bsep   (f = number of faces = vertices/2 + 2)
+vertices=8 graphs=1 no_separating_hamiltonian_cycle=0
+vertices=12 graphs=1 no_separating_hamiltonian_cycle=0
+vertices=14 graphs=1 no_separating_hamiltonian_cycle=0
+vertices=16 graphs=2 no_separating_hamiltonian_cycle=0
+vertices=18 graphs=2 no_separating_hamiltonian_cycle=0
+vertices=20 graphs=8 no_separating_hamiltonian_cycle=0
+vertices=22 graphs=8 no_separating_hamiltonian_cycle=0
+vertices=24 graphs=32 no_separating_hamiltonian_cycle=0
+vertices=26 graphs=57 no_separating_hamiltonian_cycle=0
+vertices=28 graphs=185 no_separating_hamiltonian_cycle=0
+vertices=30 graphs=466 no_separating_hamiltonian_cycle=0
+vertices=32 graphs=1543 no_separating_hamiltonian_cycle=0
+vertices=34 graphs=4583 no_separating_hamiltonian_cycle=0
+vertices=36 graphs=15374 no_separating_hamiltonian_cycle=0
+vertices=38 graphs=50116 no_separating_hamiltonian_cycle=0
+vertices=40 graphs=171168 no_separating_hamiltonian_cycle=2
+vertices=42 graphs=582603 no_separating_hamiltonian_cycle=0
+vertices=44 graphs=2024119 no_separating_hamiltonian_cycle=8   (33 s)
+vertices=46 graphs=7057472 no_separating_hamiltonian_cycle=88  (2 min 21 s)
