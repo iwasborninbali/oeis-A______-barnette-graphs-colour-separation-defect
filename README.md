@@ -16,19 +16,25 @@ Embed each graph on the sphere and properly colour its faces with three colours;
 
 ## Terms / result
 
-| k | a(k) | k | a(k) |
-|---:|---:|---:|---:|
-| 4–19 | 0 | 20 | 2 |
-| 21 | 0 | 22 | 8 |
-| 23 | 88 | | |
+Indexed by k = half the number of vertices (offset 4); the class is empty for k = 5 (value 0 by convention).
 
-Thus there are 16 consecutive zero terms through 38 vertices, followed by 2, 0, 8, 88 for 40, 42, 44, 46 vertices. These totals are source census reports; see the certificate for what was actually checked.
+| vertices 2k | 8..38 | 40 | 42 | 44 | 46 | 48 | 50 | 52 |
+|---|---|---|---|---|---|---|---|---|
+| a(k) | 0 (16 terms) | 2 | 0 | 8 | 88 | 75 | 1032 | 3817 |
+
+Equivalently (see the definition): a(k) is the number of Barnette graphs on 2k vertices with no Hamiltonian cycle that has
+all faces of one colour inside and all faces of another colour outside. Every term from 8 to 52 vertices is confirmed by
+two separately written programs (see Verification). Observation from the same runs: the weaker property "some Hamiltonian
+cycle has all faces of one colour on the same side" holds for every Barnette graph up to 52 vertices.
 
 ## How it was obtained
 
 The producer enumerates the graph class with plantri 5.5, counts Hamiltonian cycles, traces faces from the rotation system and minimizes the side-colour mismatch. A count is taken over one generated representative per isomorphism class. Original graph lists, in plantri's Latin-1 adjacency format, are in `data/` (2, 8 and 88 graphs). The verification program independently enumerates cycles, colours faces and checks the defect. Its companion enumerates 3-edge cuts.
 
 ## Verification
+
+Updated 13 Nov 2026: the guide's own program (`verification/guide/bsep.c`, a 2-factor method that does not enumerate Hamiltonian cycles) and a ChatGPT agent's separately written program (`verification/chatgpt/2026-11-13-barnette-separation/`) agree at every order from 8 to 52 vertices (`verification/chatgpt/2026-11-13-barnette-separation/guide-comparison.log`); the graph counts equal OEIS A007083. The paragraph below describes the earlier state.
+
 
 The producer census was replayed through 40 vertices; the separate Python checker was replayed on the witnesses identified in [CERTIFICATE.md](CERTIFICATE.md). A separate checker validates graph-class membership from each supplied rotation system. These checks do not independently certify enumeration completeness or graph nonisomorphism. The full order-by-order table has not been independently established.
 

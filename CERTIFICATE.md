@@ -44,8 +44,22 @@ Counts 0, 8 and 88 at n=42,44,46 and all source zeros before 40 are not independ
 
 ## Guide's independent check
 
-pending
+13 November 2026. Two separately written programs, neither sharing code with the producer (`programs/hc2.c`, which
+enumerates all Hamiltonian cycles) or with each other, both reading the graphs from plantri 5.5 (`plantri -dbc3 F`,
+F = number of faces, split into parts with `res/mod` for 48-52 vertices):
+
+1. The guide's `verification/guide/bsep.c`: a separating Hamiltonian cycle exists iff, for some colour z and some choice of
+   sides for the z-faces, the resulting 2-factor (all {x,y}-edges plus one edge class of every z-face) is a single cycle
+   (correctness argument in the file header). Logs: `verification/logs/guide-bsep-8-46.log` (Mac) and
+   `verification/logs/guide-bsep-48-52-vm.log` (lab VM).
+2. A ChatGPT agent's program written from the task's definitions only (task, conversation and results in
+   `verification/chatgpt/2026-11-13-barnette-separation/`; per-part counts in `result/PARTS.csv`, manifest checked).
+
+Both give 0 for 8..38 vertices and 2, 0, 8, 88, 75, 1032, 3817 for 40..52 vertices
+(`verification/chatgpt/2026-11-13-barnette-separation/guide-comparison.log`); the graph counts equal A007083 at every
+order. The completeness of plantri's generation is the standard assumption; A007083 is an independent published census
+of the same class sizes.
 
 ## Verdict
 
-partial — witness checks exist and were replayed, but the sequence's whole-class counts have not been independently certified.
+complete — every term from 8 to 52 vertices is confirmed by two independent programs; the graph counts match A007083.
