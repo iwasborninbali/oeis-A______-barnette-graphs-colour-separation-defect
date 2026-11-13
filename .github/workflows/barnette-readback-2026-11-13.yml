@@ -1,0 +1,51 @@
+name: Verify Barnette uploaded files from fresh GitHub checkout
+on:
+  push:
+    branches:
+      - 'chatgpt/2026-11-13-barnette-separation'
+  pull_request:
+    paths:
+      - 'verification/chatgpt/2026-11-13-barnette-separation/result/**'
+      - '.github/workflows/barnette-readback-2026-11-13.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify-all-2872-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out uploaded files from GitHub
+        uses: actions/checkout@v4
+      - name: Read every file, compare local Git blob hashes and SHA-256 manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          root='verification/chatgpt/2026-11-13-barnette-separation/result'
+          test "$(find "$root" -type f | wc -l)" -eq 2872
+          echo '62720df6256565b66a7f134d63df1bad70e33033435b4861bc0b05939e1f8c23  '"$root/MANIFEST.sha256" | sha256sum -c -
+          ( cd "$root" && sha256sum -c MANIFEST.sha256 > /tmp/barnette-manifest-check.log )
+          test "$(grep -c ': OK$' /tmp/barnette-manifest-check.log)" -eq 2871
+          python3 - "$root" <<'PY'
+          import hashlib
+          from pathlib import Path
+          import sys
+
+          root = Path(sys.argv[1])
+          records = []
+          for p in root.rglob('*'):
+              if not p.is_file():
+                  continue
+              data = p.read_bytes()
+              sha = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\x00' + data).hexdigest()
+              records.append((p.relative_to(root).as_posix(), sha, len(data)))
+          records.sort()
+          inventory = ''.join(f'{sha}\t{size}\t{name}\n' for name, sha, size in records).encode()
+          actual = hashlib.sha256(inventory).hexdigest()
+          expected = '8a3e7947a115fae4a701a68133485e6dcc260e62670d95ebf5013d8b79874073'
+          print(f'Files read back: {len(records)}')
+          print(f'Local inventory SHA-256: {expected}')
+          print(f'Read-back inventory SHA-256: {actual}')
+          assert len(records) == 2872 and actual == expected
+          PY
+          echo 'PASS: all 2,872 files read from GitHub and byte-for-byte hash matched'
