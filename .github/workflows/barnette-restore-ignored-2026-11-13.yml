@@ -1,0 +1,31 @@
+name: Restore archived ignored bytecode
+on:
+  push:
+    branches:
+      - 'chatgpt/2026-11-13-barnette-separation'
+permissions:
+  contents: write
+jobs:
+  restore-exact-file:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: 'chatgpt/2026-11-13-barnette-separation'
+      - name: Restore exact archived bytes and force-add ignored file
+        shell: bash
+        run: |
+          set -euo pipefail
+          root='verification/chatgpt/2026-11-13-barnette-separation/result'
+          dest="$root/src/__pycache__/verify_independent.cpython-313.pyc"
+          git show 'e86049e6d808a2318bb3d8d73b97aa3a7a9ef1fa:'"$root/.barnette-upload.zip" > /tmp/barnette-archive.zip
+          echo 'c67b9fe33f0de4b35f57742be1dc42f0125cfbb6b673f9a46becb209675e1cb8  /tmp/barnette-archive.zip' | sha256sum -c -
+          mkdir -p "$(dirname "$dest")"
+          unzip -p /tmp/barnette-archive.zip "$dest" > "$dest"
+          echo '32516998c62108c0ebc12bbbafb03c973bf1ac06feff49bd6b60ad07f38dd648  '"$dest" | sha256sum -c -
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f "$dest"
+          git commit -m 'Include exact archived Python bytecode previously excluded by gitignore'
+          git push origin HEAD:refs/heads/chatgpt/2026-11-13-barnette-separation
