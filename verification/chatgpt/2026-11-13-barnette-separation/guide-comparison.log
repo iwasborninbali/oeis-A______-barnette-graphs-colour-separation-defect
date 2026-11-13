@@ -1,0 +1,25 @@
+# Guide's comparison, 13 Nov 2026: guide's own counts (verification/guide/bsep.c with plantri -dbc3; Mac to 46 vertices, lab VM for 48-52 in two parts each)
+# against the ChatGPT agent's separate program (result/PARTS.csv, all parts complete; result/summary.csv and per_part.csv are earlier snapshots and stop at 118/512 parts for 52 vertices)
+vertices graphs guide_without_S2 agent_without_S2
+8 1 0 0 agree
+12 1 0 0 agree
+14 1 0 0 agree
+16 2 0 0 agree
+18 2 0 0 agree
+20 8 0 0 agree
+22 8 0 0 agree
+24 32 0 0 agree
+26 57 0 0 agree
+28 185 0 0 agree
+30 466 0 0 agree
+32 1543 0 0 agree
+34 4583 0 0 agree
+36 15374 0 0 agree
+38 50116 0 0 agree
+40 171168 2 2 agree
+42 582603 0 0 agree
+44 2024119 8 8 agree
+46 7057472 88 88 agree
+48 24873248 75 75 agree
+50 88111772 1032 1032 agree
+52 314301078 3817 3817 agree

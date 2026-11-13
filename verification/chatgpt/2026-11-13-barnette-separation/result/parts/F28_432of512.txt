@@ -1,0 +1,1 @@
+COMPLETE F=28 n=52 graphs=617867 noS2=8 noS1=0 attemptsS2=74071411 attemptsS1=16465 seconds=14.109006

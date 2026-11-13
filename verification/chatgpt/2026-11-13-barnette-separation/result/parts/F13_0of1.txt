@@ -1,0 +1,1 @@
+COMPLETE F=13 n=22 graphs=8 noS2=0 noS1=0 attemptsS2=54 attemptsS1=0 seconds=0.000035
