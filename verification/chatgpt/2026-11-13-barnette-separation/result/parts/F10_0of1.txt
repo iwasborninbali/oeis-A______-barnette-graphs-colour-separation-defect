@@ -1,0 +1,1 @@
+COMPLETE F=10 n=16 graphs=2 noS2=0 noS1=0 attemptsS2=4 attemptsS1=0 seconds=0.000024

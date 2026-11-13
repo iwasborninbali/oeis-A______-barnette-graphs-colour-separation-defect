@@ -1,0 +1,1 @@
+COMPLETE F=9 n=14 graphs=1 noS2=0 noS1=0 attemptsS2=2 attemptsS1=0 seconds=0.008737
