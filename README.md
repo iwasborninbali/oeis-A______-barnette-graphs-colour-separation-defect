@@ -3,7 +3,7 @@
 <!-- oeis-status:begin -->
 **OEIS status: not submitted; no A-number yet** (lab registry, 13 Nov 2026).
 
-- A______, Barnette graphs on 2n vertices with no Hamiltonian cycle separating two face colour classes: **candidate** (2026-11-13: reconsidered with Alex: the two failed criteria (few terms, uncertified 42..46) are fixable by computing; guide recount 8..46 agrees). Certificate: complete.
+- A______, Barnette graphs on 2n vertices with no Hamiltonian cycle separating two face colour classes: **verified** (2026-11-13: verified to 52 vertices by two independent programs). Certificate: complete.
 
 Rules and the full registry: [athanor-oeis](https://github.com/iwasborninbali/athanor-oeis/blob/main/REGISTRY.md).
 <!-- oeis-status:end -->
