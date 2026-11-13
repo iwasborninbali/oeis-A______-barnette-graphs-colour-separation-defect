@@ -1,7 +1,7 @@
 # OEIS candidate (no A-number yet): Barnette graphs with positive face-colour-separation defect
 
 <!-- oeis-status:begin -->
-**OEIS status: not submitted; no A-number yet** (lab registry, 13 Nov 2026).
+**OEIS status: not submitted; no A-number yet** (lab registry, 14 Nov 2026).
 
 - A______, Barnette graphs on 2n vertices with no Hamiltonian cycle separating two face colour classes: **verified** (2026-11-13: verified to 52 vertices by two independent programs). Certificate: complete.
 
